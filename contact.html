@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/images/su_banner.gif" alt="su_banner">
+            <!-- Liens pour envoyer ver les autres pages-->
+            <nav id="main-nav">
+                <!--Faire une liste-->
+                <ul>
+                    <li><a class= "amoche" href="index.html">Home</a></li>
+                    <li><a class= "amoche" href="about.html">About Us</a></li>
+                    <li><a class= "amoche" href="services.html">Our Services</a></li>
+                    <li><a class= "amoche" href="contact.html">Contact Us</a></li>
+                </ul>
+                
+            </nav>
+        
+        </header>
+
+        <main class="content">
+            <h2>Contact Us:</h2>
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+                <label>First Name:*</label>
+                <input type="text" id="first_name" name="first_name" required maxlength="25">
+                <br> <br>
+
+                <label>Last Name:*</label>
+                <input type="text" id="last_name" name="last_name" required maxlength="25">
+                <br> <br>
+
+                <label>Email:*</label>
+                <input type="email" id="email" name="email" required maxlength="35">
+                <br> <br>
+
+                <label>Please select your music genre(s) that you like:</label>
+                <br>
+                <input type="checkbox" name="Classic" value="Classic">Classic
+                <br>
+                <input type="checkbox" name="Jazz" value="Jazz">Jazz
+                <br>
+                <input type="checkbox" name="Instrumental" value="Instrumental">Instrumental
+                <br>
+                <input type="checkbox" name="Blues" value="Blues">Blues
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Message</legend>
+
+                <label>How did you hear about us?</label>
+                <select id="options" name="choix">
+                    <option value="Our website">Our website</option>
+                    <option value="Friends">Friends</option>
+                    <option value="TV Adv.">TV Adv.</option>
+                    <option value="Other">Other</option>
+                </select>  <br> <br>
+
+                <label>Would you recommendedus to your friends?</label>
+                <br>
+                <input type="radio" id="oui" name="reponse" value="oui" checked>
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="reponse" value="no">
+                <label>No</label>
+
+                <input type="radio" id="maybe" name="reponse" value="maybe">
+                <label>Maybe</label>
+
+                <br> <br>
+                <label>Your request :</label>
+                 <br>
+                 <input type="text" id="request" name="request" required maxlength="200" style="width: 400px; height: 100px">
+                
+                <br> <br>
+                <input type="radio" id="yes" name="reponse" value="yes" checked>
+                <label>Sign me up for email update</label>
+
+                <br> <br>
+                <input type="Submit" value="Submit">
+
+            </fieldset>
+             <br> 
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.865810933567!2d-79.39233542313858!3d43.67176055122905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sfr!2sca!4v1694530715455!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </main>
+            
+        <footer>
+            <p>Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Your Full Name - All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

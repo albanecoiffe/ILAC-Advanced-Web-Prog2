@@ -1,0 +1,170 @@
+body {
+    background-image: url("../assets/images/dark-woods/dark-wood4.jpg");
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+
+.container {
+    width: 950px;
+    margin: 5px;
+    margin: auto;
+    background-color: #9d8189;
+}
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+header,
+nav,
+footer {
+    background-color: #f08080;
+    color: #f1dedc;
+}
+
+
+nav>ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>ul>li {
+    margin-right: 40px;
+    text-transform: uppercase;
+
+}
+
+
+
+a:link {
+    color: #b0104d;
+}
+
+a:visited {
+    color: #f4c3b8;
+}
+
+a:hover {
+    color: #b0104d;
+}
+
+a:active {
+    color: #582e3e;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #872f2f;
+
+}
+
+.img-centre {
+    display: block;
+    margin: 0 auto;
+
+
+    margin-top: 5px;
+
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: 2px solid #a4133c;
+    padding: 2px 5px;
+    background-color: #800f2f;
+    color: #f1dedc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table th,
+tfoot td {
+    text-transform: uppercase;
+    color: #f4c3b8;
+    background-color: #590d22;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    margin: auto;
+}
+
+fieldset {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    border: dotted 5px;
+    background-color: #800f2f;
+    color: #f4c3b8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+legend {
+    font-style: italic;
+    color: #590d22;
+    background-color: #f4c3b8;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px
+}
+
+input[type="Submit"] {
+    border: solid 5px #700c32;
+    Padding: 5px;
+    background-color: #f08080;
+
+}
+
+input[type="submit"]:hover {
+    color: #FFF;
+    background-color: #333;
+    cursor: pointer;
+}
