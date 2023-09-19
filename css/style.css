@@ -84,7 +84,10 @@ a:active {
     text-decoration: none;
 }
 
-
+/*Style the three headings: h1, h2, and h3:
+    a. To have margin of 10px for all the sides
+    b. With Uppercase letters
+    c. Different dark/light colour */
 h1,
 h2,
 h3 {
@@ -94,17 +97,24 @@ h3 {
 
 }
 
+/*Style the custom class named “img-centre”*/
 .img-centre {
+    /*Centre the image horizontally*/
     display: block;
     margin: 0 auto;
 
-
+    /*Having margin of 5px from the top and bottom
+    Having padding of 2px to all the sides*/
     margin-top: 5px;
-
     margin-bottom: 5px;
     padding: 2px;
 }
 
+/*Style the <audio> and <video> elements:
+    a. Centre any audio or video element (horizontally)
+    [Don’t forget that video/audio are both inline elements]
+
+    b. With margin of 10px from the top and bottom*/
 video {
     display: block;
     margin: 0 auto;
@@ -112,35 +122,53 @@ video {
     margin-bottom: 10px;
 }
 
+/*Style any <table> element:*/
 table {
+    /*The width is 800px*/
     width: 800px;
+    /*Centre the table horizontally with 10px of margining from the top and bottom sides*/
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    /*The table border has to be collapsed*/
     border-collapse: collapse;
 
 }
 
+/* Style both the <td> and <th> element of any table:*/
 td,
 th {
+    /*Having a border with any settings you like*/
     border: 2px solid #a4133c;
+    /*Padding of 2px from the top/bottom and 5px from the left/right*/
     padding: 2px 5px;
+    /*Any background colour */
     background-color: #800f2f;
     color: #f1dedc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Style both the <th> inside any table and the <td> inside the <tfoot>*/
 table th,
 tfoot td {
+    /*With Uppercase letters*/
     text-transform: uppercase;
-    color: #f4c3b8;
+    /*Any colour*/
+    color: #f4c3b8;    
+    /*Any background colour */
     background-color: #590d22;
 }
 
+/*Style any <dt> element: 
+Make it bold*/
 dt {
     font-weight: bold;
 }
 
+/*Style any <footer> element:
+a. Change the font size to be 80% of the default font size or of the font size of the body
+b. Align your text to the centre of the table
+c. Add 1px of padding from the top/bottom and 0 from the right/left*/
 footer {
     font-size: 80%;
     text-align: center;
@@ -150,6 +178,11 @@ footer {
     padding-right: 0;
 }
 
+/*Style any <iframe> element:
+a. Add margin of 10px for top/bottom
+b. Centre the iframe horizontally (Hint: don’t forget that <iframe> is an inline element so you will
+need to make it block level element first)
+*/
 iframe {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -157,6 +190,11 @@ iframe {
     margin: auto;
 }
 
+/*Style any <fieldset> element:
+a. Add width of 500px
+b. Add margin of 20px for top/bottom and centre the fieldset horizontally
+c. Add border with any style you prefer
+d. Add background colour*/
 fieldset {
     width: 500px;
     margin-top: 20px;
@@ -168,6 +206,13 @@ fieldset {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Style any <legend> element:
+a. Italic font style
+b. Different front and background colour
+c. Margin of 0 from the top/bottom and 10px from the left/right
+d. Padding of 0 from top/bottom and 5px from the left/right
+e. Give it a rounded border with any size or setting you prefer
+*/
 legend {
     font-style: italic;
     color: #590d22;
@@ -183,13 +228,18 @@ legend {
     border-radius: 5px
 }
 
+/*Style the <input> element that has an attribute named “type” with value of “submit”:
 input[type="Submit"] {
+    /* a. Border with any style you like*/
     border: solid 5px #700c32;
+    /* b. Padding of 5px for all the sides*/
     Padding: 5px;
+    /* c. Any background colour you prefer*/
     background-color: #f08080;
 
 }
 
+/*Style the same <input> element that has an attribute named “type” with value of “submit” but with the pseudo class for the hover state*/
 input[type="submit"]:hover {
     color: #FFF;
     background-color: #333;
