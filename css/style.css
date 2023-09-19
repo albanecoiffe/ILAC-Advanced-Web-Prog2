@@ -166,12 +166,12 @@ dt {
 }
 
 /*Style any <footer> element:
-a. Change the font size to be 80% of the default font size or of the font size of the body
-b. Align your text to the centre of the table
-c. Add 1px of padding from the top/bottom and 0 from the right/left*/
 footer {
+    /*a. Change the font size to be 80% of the default font size or of the font size of the body*/
     font-size: 80%;
+    /*b. Align your text to the centre of the table*/
     text-align: center;
+    /*c. Add 1px of padding from the top/bottom and 0 from the right/left*/*/
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 0;
@@ -179,52 +179,53 @@ footer {
 }
 
 /*Style any <iframe> element:
-a. Add margin of 10px for top/bottom
-b. Centre the iframe horizontally (Hint: don’t forget that <iframe> is an inline element so you will
-need to make it block level element first)
 */
 iframe {
+    /*a. Add margin of 10px for top/bottom*/
     margin-top: 10px;
     margin-bottom: 10px;
+    /*b. Centre the iframe horizontally (Hint: don’t forget that <iframe> is an inline element so you will
+    need to make it block level element first)*/
     display: block;
     margin: auto;
 }
 
-/*Style any <fieldset> element:
-a. Add width of 500px
-b. Add margin of 20px for top/bottom and centre the fieldset horizontally
-c. Add border with any style you prefer
-d. Add background colour*/
+/*Style any <fieldset> element:*/
 fieldset {
+    /*a. Add width of 500px*/
     width: 500px;
+    /*b. Add margin of 20px for top/bottom and centre the fieldset horizontally*/
     margin-top: 20px;
     margin-bottom: 20px;
     margin: auto;
+    /*c. Add border with any style you prefer*/
     border: dotted 5px;
+    /*d. Add background colour*/
     background-color: #800f2f;
+    
     color: #f4c3b8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Style any <legend> element:
-a. Italic font style
-b. Different front and background colour
-c. Margin of 0 from the top/bottom and 10px from the left/right
-d. Padding of 0 from top/bottom and 5px from the left/right
-e. Give it a rounded border with any size or setting you prefer
 */
 legend {
+    /*a. Italic font style*/
     font-style: italic;
+    /*b. Different front and background colour*/
     color: #590d22;
     background-color: #f4c3b8;
+    /*c. Margin of 0 from the top/bottom and 10px from the left/right*/
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10px;
     margin-right: 10px;
+    /*d. Padding of 0 from top/bottom and 5px from the left/right*/
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 5px;
     padding-right: 5px;
+    /*e. Give it a rounded border with any size or setting you prefer*/
     border-radius: 5px
 }
 
