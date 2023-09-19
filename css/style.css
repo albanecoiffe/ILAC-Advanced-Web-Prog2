@@ -1,62 +1,89 @@
+/* The <body> element : */
 body {
+    /* Background image*/
     background-image: url("../assets/images/dark-woods/dark-wood4.jpg");
+    /*color text of the body*/
     color: #000000;
+    /*The font family (face) is at least 3 options of any sans-serif fonts*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*Margin 0 for all the four sides*/
     margin: 0;
 }
 
-
+/*Style the <div> element with class “container”*/
 .container {
+    /*The width value can be 950px*/
     width: 950px;
-    margin: 5px;
+    /*5px margin from top and bottom*/
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /*aligned centered*/
     margin: auto;
+    /*Apply any background colour*/
     background-color: #9d8189;
 }
 
+/*Style any element with class value of “content”*/
 .content {
+    /*The line height*/
     line-height: 1.4em;
+    /*padding to all the sides*/
     padding: 10px;
 }
 
+/*Style the “header, nav, and footer” */
 header,
 nav,
 footer {
+    /*background colour*/
     background-color: #f08080;
+    /*foreground colour (normal font colour)*/
     color: #f1dedc;
 }
 
-
+/*  <li> & <ul> which is inside <nav> element */
 nav>ul {
+    /*0 margin from all the sides*/
     margin: 0;
+    /*5px padding from all the sides*/
     padding: 5px;
     list-style-type: none;
+    /*To be displayed horizontally (Remember that <li> is a block-level element)*/
     display: flex;
     justify-content: space-around;
 }
-
 nav>ul>li {
+    /*To be displayed horizontally*/
     margin-right: 40px;
+    /*All the navigation items should be displayed as Uppercase*/
     text-transform: uppercase;
 
 }
 
 
-
+/*Add the 4 pseudo classes effect to the anchor tags/elements of the main navigation list items, the colour should be changed (Use any colours you like/prefer):
+Any colour you like
+No underline*/
 a:link {
     color: #b0104d;
+    text-decoration: none;
 }
 
 a:visited {
     color: #f4c3b8;
+    text-decoration: none;
 }
 
 a:hover {
     color: #b0104d;
+    text-decoration: none;
 }
 
 a:active {
     color: #582e3e;
+    text-decoration: none;
 }
+
 
 h1,
 h2,
