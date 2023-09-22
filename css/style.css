@@ -207,8 +207,7 @@ fieldset {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*Style any <legend> element:
-*/
+/*Style any <legend> element:*/
 legend {
     /*a. Italic font style*/
     font-style: italic;
@@ -229,7 +228,7 @@ legend {
     border-radius: 5px
 }
 
-/*Style the <input> element that has an attribute named “type” with value of “submit”:
+/*Style the <input> element that has an attribute named “type” with value of “submit”:*/
 input[type="Submit"] {
     /* a. Border with any style you like*/
     border: solid 5px #700c32;
